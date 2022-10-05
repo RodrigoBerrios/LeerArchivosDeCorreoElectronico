@@ -1,0 +1,22 @@
+{
+  "name": "leer-archivos-de-correo-electronico",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.16.0",
+    "npm": "8.11.0"
+  },
+  "author": "Rodrigo Berrios",
+  "dependencies": {
+    "base64-stream": "^1.0.0",
+    "dotenv": "^16.0.3",
+    "imap": "^0.8.19",
+    "imap-simple": "^5.1.0",
+    "moment-timezone": "^0.5.37"
+  }
+}
